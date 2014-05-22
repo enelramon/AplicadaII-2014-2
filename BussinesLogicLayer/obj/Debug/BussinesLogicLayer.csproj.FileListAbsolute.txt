@@ -1,0 +1,7 @@
+C:\Users\Enel\Documents\Visual Studio 2012\Projects\Aplicada II\AplicadaII-2014-2\BussinesLogicLayer\bin\Debug\BussinesLogicLayer.dll
+C:\Users\Enel\Documents\Visual Studio 2012\Projects\Aplicada II\AplicadaII-2014-2\BussinesLogicLayer\bin\Debug\BussinesLogicLayer.pdb
+C:\Users\Enel\Documents\Visual Studio 2012\Projects\Aplicada II\AplicadaII-2014-2\BussinesLogicLayer\bin\Debug\DataLayer.dll
+C:\Users\Enel\Documents\Visual Studio 2012\Projects\Aplicada II\AplicadaII-2014-2\BussinesLogicLayer\bin\Debug\DataLayer.pdb
+C:\Users\Enel\Documents\Visual Studio 2012\Projects\Aplicada II\AplicadaII-2014-2\BussinesLogicLayer\obj\Debug\BussinesLogicLayer.csprojResolveAssemblyReference.cache
+C:\Users\Enel\Documents\Visual Studio 2012\Projects\Aplicada II\AplicadaII-2014-2\BussinesLogicLayer\obj\Debug\BussinesLogicLayer.dll
+C:\Users\Enel\Documents\Visual Studio 2012\Projects\Aplicada II\AplicadaII-2014-2\BussinesLogicLayer\obj\Debug\BussinesLogicLayer.pdb

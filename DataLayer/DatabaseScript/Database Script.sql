@@ -1,11 +1,11 @@
-Create Database StudentManagementDB
+Create Database TeacherControlDB
 go
 
- use StudentManagementDB
+ use TeacherControlDB
  go
  Create Table CivilStates(IdCivilState int primary key identity(1,1),StateName varchar(40)  not null,isActive bit)
  
-create table Peoples(IdPerson int primary key identity(1,1),Name Varchar(40) not null,LastName  Varchar(40) not null,
+create table Persons(IdPerson int primary key identity(1,1),Name Varchar(40) not null,LastName  Varchar(40) not null,
  Adress Varchar(100), Gender tinyint, BornDate date,IdCivilState int,Email varchar(100), Phone varchar(12))
 
 Create table Students(IdStudent int primary key identity(1,1),IdPerson int not null,StudentCode varchar(9)) 

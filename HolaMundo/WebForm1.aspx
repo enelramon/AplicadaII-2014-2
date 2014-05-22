@@ -16,6 +16,13 @@
     
         <asp:Label ID="ResultadoLabel" runat="server" Text="Resultado"></asp:Label>
     
+        <br />
+        <br />
+        <asp:Button ID="ProbarButton" runat="server" OnClick="Button1_Click" Text="Button" />
+        <br />
+        <asp:Label ID="MyLabel" runat="server" Text="Label"></asp:Label>
+        <br />
+    
     </div>
     </form>
 </body>

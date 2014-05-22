@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaMundo", "HolaMundo\Hola
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{7F3DCC44-70EC-4DCF-9858-7BDF17A63283}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinesLogicLayer", "BussinesLogicLayer\BussinesLogicLayer.csproj", "{22566A52-3B71-40CB-A08C-6EF433D9FD9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherControlWebUI", "TeacherControlWebUI\TeacherControlWebUI.csproj", "{878735C3-0165-4882-9CC9-397FBB31E8D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,14 @@ Global
 		{7F3DCC44-70EC-4DCF-9858-7BDF17A63283}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F3DCC44-70EC-4DCF-9858-7BDF17A63283}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F3DCC44-70EC-4DCF-9858-7BDF17A63283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22566A52-3B71-40CB-A08C-6EF433D9FD9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22566A52-3B71-40CB-A08C-6EF433D9FD9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22566A52-3B71-40CB-A08C-6EF433D9FD9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22566A52-3B71-40CB-A08C-6EF433D9FD9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{878735C3-0165-4882-9CC9-397FBB31E8D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{878735C3-0165-4882-9CC9-397FBB31E8D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{878735C3-0165-4882-9CC9-397FBB31E8D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{878735C3-0165-4882-9CC9-397FBB31E8D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

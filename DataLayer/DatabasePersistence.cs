@@ -10,7 +10,7 @@ namespace DataLayer
 {
     public class DatabasePersistence
     {
-        string ConStr = "@Data Source=enel-lab;Initial Catalog=StudentManagementDB;Persist Security Info=True;User ID=aplicada;Password=1234";
+        string ConStr = @"Data Source=enel-lab;Initial Catalog=TeacherControlDB;Persist Security Info=True;User ID=aplicada;Password=1234";
         
         /// <summary>
         /// Permite ejecutar comandos contra la base de datos sqlserver
@@ -28,6 +28,7 @@ namespace DataLayer
             {
                 connection.Open();
                 conmand.ExecuteNonQuery();
+                returned = true;
             }
             catch (Exception)
             {
