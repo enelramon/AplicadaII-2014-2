@@ -26,8 +26,8 @@ namespace DataLayer.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=enel-lab;Initial Catalog=StudentManagementDB;Persist Security Info=Tr" +
-            "ue;User ID=aplicada;Password=1234")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.\\sqlexpress;Initial Catalog=StudentManagementDB;Integrated Security=" +
+            "True")]
         public string Setting {
             get {
                 return ((string)(this["Setting"]));

@@ -27,6 +27,7 @@ namespace TeacherControlWebUI.ControlPanel
             {
                 StateNameTextBox.Text = "";
                esActivoCheckBox.Checked =true ;
+               ErrorLabel.Text = "Bieeeen.... Guardo";
             }
             else //no guardo
             {

@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master2.master.cs" Inherits="VentasOnLineWeb.Master2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+    <div id="header" style="background-position: center center; background-image: url('/Images/header.png'); height: 108px; background-repeat: no-repeat;">
+
+        <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+            <Items>
+                <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home" Value="New Item"></asp:MenuItem>
+                <asp:MenuItem Text="Consultas" Value="Consultas">
+                    <asp:MenuItem NavigateUrl="~/ConsultaClientes.aspx" Text="Clientes" Value="Clientes"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/ConsultaEstadoCuentas.aspx" Text="Estado de Cuenta" Value="Estado de Cuenta"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/Contact.aspx" Text="Contact" Value="Contact"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/About.aspx" Text="About" Value="About"></asp:MenuItem>
+            </Items>
+        </asp:Menu>
+
+    </div>
+
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+
+     <div id="footer">
+        <center> Powered by: Soluciones Almonte Gil (SAG)</center>
+</div>
+
+</body>
+</html>
